@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F702DEF1B60F082001CD2B5 /* DrawingContextiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawingContextiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F702DEF1B60F082001CD2B5 /* DrawingContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawingContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F702DF11B60F082001CD2B5 /* DrawingContextiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingContextiOS.h; sourceTree = "<group>"; };
 		1F702DF31B60F082001CD2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FB439B31B5D47E200EF9026 /* DrawingContext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DrawingContext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +125,7 @@
 			children = (
 				1FB439B31B5D47E200EF9026 /* DrawingContext.framework */,
 				1FB439BD1B5D47E200EF9026 /* DrawingContextTests.xctest */,
-				1F702DEF1B60F082001CD2B5 /* DrawingContextiOS.framework */,
+				1F702DEF1B60F082001CD2B5 /* DrawingContext.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			);
 			name = DrawingContextiOS;
 			productName = DrawingContextiOS;
-			productReference = 1F702DEF1B60F082001CD2B5 /* DrawingContextiOS.framework */;
+			productReference = 1F702DEF1B60F082001CD2B5 /* DrawingContext.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1FB439B21B5D47E200EF9026 /* DrawingContext */ = {
@@ -403,7 +403,7 @@
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metaobject.DrawingContextiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DrawingContext;
 				PUBLIC_HEADERS_FOLDER_PATH = DrawingContext;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -427,7 +427,7 @@
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metaobject.DrawingContextiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DrawingContext;
 				PUBLIC_HEADERS_FOLDER_PATH = DrawingContext;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -673,7 +673,7 @@
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metaobject.DrawingContextiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DrawingContext;
 				PUBLIC_HEADERS_FOLDER_PATH = DrawingContext;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
